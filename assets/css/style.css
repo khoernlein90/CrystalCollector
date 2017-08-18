@@ -1,6 +1,7 @@
 .jumbotron h1 {
 	color: white;
 	margin-top: 0;
+	margin-bottom: 15px;
 }
 .jumbotron p {
 	font-size: 16px;
@@ -23,7 +24,7 @@
 	background-image: url("http://www.ejonas.com/wp-content/uploads/lgrey2.jpg");
 	margin-bottom: 15px;
 	margin-top: 25px;
-	padding: 40px;
+	padding: 35px;
 	background-color: #5D666D;
 	border-color: white;
 	border-style: solid;

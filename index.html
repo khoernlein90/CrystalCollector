@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container text-center">
+	<div class="jumbotron">
+		<h1>Crystal Collector</h1>
+		<p class="font">You will be given a random number at the start of the game.</p>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p>You will win the game by matching your total score to the random number,and you will lose if your total score goes above the random number.</p>
+		<p>The value of each crystal is hidden until you click on it.</p>
+		<p>The values of the crystals change everytime the game starts.</p>
+	</div>
+</div>
+
+
+<div class="container text-center">
+	<div class="panel panel-default">
+	  <div class="panel-heading">
+	    <h1 class="panel-title mainNumber">Target Number: </h1>
+	  </div>
+	  <div class="panel-body currentNumber">Current Number: 0
+	   
+	  </div>
+	</div>
+</div>
+
+<div class="container text-center">
+		<img class="1" src="http://vignette3.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642" width="150">
+		<img class="2" src="http://mbch.guide/wp-content/uploads/crystal_quest.png" width="150">
+		<img class="3" src="http://marvelbitvachempionov.ru/wp-content/uploads/crystal_cosmic.png" width="150">
+		<img class="4" src="http://24.media.tumblr.com/562d005bd9c1746fa8ea2d9925848f57/tumblr_mpqr98a3761s5jjtzo1_1280.png" width="150">
+</div>
+
+<div class="container text-center">
+	<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-3 wins">Wins: 0</div>
+			<div class="col-md-3 losses">Losses: 0</div>
+			<div class="col-md-3"></div>
+	</div>
+</div>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>

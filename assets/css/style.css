@@ -1,13 +1,14 @@
 .jumbotron h1 {
-	color: #D3D5D7;
+	color: white;
 	margin-top: 0;
 }
 .jumbotron p {
 	font-size: 16px;
 	margin: 10px;
+	font-weight: bold;
 }
 .panel {
-	background-color: #98B05E;
+	background-color: #4826A7;
 	border-color: white;
 	border-style: solid;
 	border-width: 1px;
@@ -15,19 +16,24 @@
 .mainNumber {
 	font-size: 24px;
 }
+.currentNumber {
+	color: lightgray;
+}
 .jumbotron {
+	background-image: url("http://www.ejonas.com/wp-content/uploads/lgrey2.jpg");
 	margin-bottom: 15px;
 	margin-top: 25px;
 	padding: 40px;
 	background-color: #5D666D;
-	border-color: #98B05E;
+	border-color: white;
 	border-style: solid;
 	border-width: 1px;
 }
 .wins, .losses {
 	margin-top: 20px;
 	font-size: 20px;
+	color: lightgray;
 }
 body{
-	background-color: gray;
+	background-image: url("https://static1.squarespace.com/static/511550cee4b0b8b2ffe0de42/t/53dc0468e4b0b0318332b781/1406927980951/background13.jpg?format=1500w");
 }

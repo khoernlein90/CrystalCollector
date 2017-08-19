@@ -9,7 +9,8 @@
 	font-weight: bold;
 }
 .panel {
-	background-color: #4826A7;
+	background-image: url("https://ak5.picdn.net/shutterstock/videos/23545732/thumb/1.jpg");
+	background-size: cover;
 	border-color: white;
 	border-style: solid;
 	border-width: 1px;
@@ -18,6 +19,8 @@
 	font-size: 24px;
 }
 .currentNumber {
+	color: black;
+	font-size: 16px;
 	color: lightgray;
 }
 .jumbotron {

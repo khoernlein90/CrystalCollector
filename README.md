@@ -8,3 +8,5 @@ Crystal Collector is a game that can be played in the browser. The game will pro
 * Bootstrap
 * JavaScript
 * jQuery
+
+(/assets/images/crystal.jpg)
